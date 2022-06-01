@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.header{
+/* .header{
     position: absolute;
     top: 0px;
     right: 0px;
@@ -15,7 +15,7 @@
     width: 100%;
     text-transform: capitalize;
     text-align: center;
-}
+} */
 
 a:link{
     text-decoration: none;
@@ -26,14 +26,18 @@ a:visited{
     color: white;
 }
 
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 body{
     background-image: url(bg1.jpg);
     background-repeat: no-repeat;
-    background: -webkit-linear-gradient(to bottom, #8f94fb, #4e54c8);
 }
 
 .circles{
     position: absolute;
+    pointer-events: none;
     top: 0;
     left: 0;
     width: 100%;
