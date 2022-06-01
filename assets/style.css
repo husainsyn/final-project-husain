@@ -29,10 +29,30 @@ a:visited{
 .navbar-light .navbar-nav .nav-link.active:hover{
     color: rgba(255, 255, 255, 0.5);
 }
+.nav-item{
+    transition: 0.15s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.1, 1.1);
+}
 
 body{
     background-image: url(bg1.jpg);
     background-repeat: no-repeat;
+}
+
+.card{
+    color: aliceblue;
+    background-color: #27809e98;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.356));
+    top: 6.5rem;
+    padding: 0.3rem;
+    border: 5rem rgb(26, 111, 180);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s ease-in-out;    
+}
+.card:hover{
+    transform: scale(1.03, 1.03);
 }
 
 .circles{
