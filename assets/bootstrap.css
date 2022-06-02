@@ -4069,7 +4069,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 2px solid transparent;
   border-radius: 0.3rem;
-  box-shadow: 0 0 0 0.1rem white;
+  box-shadow: 0 0 0 0.1rem rgb(255, 255, 255);
   transition: box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4083,7 +4083,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.1rem;
+  box-shadow: 0 0 0 0.1rem white;
 }
 
 .navbar-toggler-icon {
