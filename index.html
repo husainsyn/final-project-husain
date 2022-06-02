@@ -8,18 +8,19 @@
     <title>Portofolio Husain</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/bootstrap.css" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="assets/bootstrap.js"></script>
-    <script src="assets/code.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/code.js"></script>
 </head>
 
 <header>
     <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color:#27809e98">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <i><img src="assets/coding.png" width="35px" alt="" style="margin-left: 5px;"></i>
-                <i style="font-style: normal;color:white;font-family:rockwell;text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">&nbsp;My Profile</i>
+                <i><img src="img/coding.png" width="35px" alt="" style="margin-left: 5px;"></i>
+                <i style="font-style: normal;color:white;font-family:rockwell;text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">&nbsp;My
+                    Profile</i>
             </a>
             <button class="navbar-toggler collapsed ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,10 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" href="home.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" href="#About">About</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <a class="nav-link active" href="portofolio.html">Portofolio</a>
@@ -70,13 +71,23 @@
             <li></li>
         </ul>
     </div>
-    
+
     <div class="card text-center mx-auto" style="width: 22rem;">
-        <img src="assets/fotoP.JPG" class="card-img-top" alt="foto-profil">
+        <img src="img/fotoP.JPG" class="card-img-top" alt="foto-profil">
         <div class="card-body">
             <h5 class="card-title">Husain Ali Ahmad</h5>
-            <p class="card-text" style="font-style: italic;">Front End Developer</p>
-            <a href="#" class="btn btn-primary">About</a>
+            <p class="card-text" style="font-style: italic;">Front-End Web Developer</p>
+            <button class="tombol-about" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">About</button>
+            <p></p>
+            <div class="collapse" id="collapseExample">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
         </div>
     </div>
 
