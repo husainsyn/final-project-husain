@@ -87,6 +87,12 @@ body{
     background-repeat: no-repeat;
 }
 
+.card-bungkus{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
 .card{
     color: aliceblue;
     background-color: #27809e98;
@@ -100,7 +106,7 @@ body{
 .card:hover{
     transform: scale(1.03, 1.03);
 }
-.tombol-about{
+.tombol-about, .tombol-team, .tombol-kontak{
     border-radius: 20px;
     box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
@@ -210,5 +216,11 @@ body{
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-bungkus {
+        flex-direction: column;
     }
 }
