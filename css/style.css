@@ -98,12 +98,15 @@ body{
 }
 .card{
     color: aliceblue;
-    background-color: #27809e77;
+    background-color: #27809ec0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.356));
-    top: 6.5rem;
+    top: 15rem;
     padding: 0.3rem;
     border: 5rem rgb(26, 111, 180);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -5px -5px 12px 0 rgba(255, 255, 255, 0.3);
     transition: 0.4s ease-in-out;    
 }
 .card:hover{
@@ -244,6 +247,7 @@ body{
     }
     .card {
         margin-bottom: 1.5rem;
+        top: 6rem;
     }
     /* urutan item */
     .card:nth-of-type(1) { order: 2; }
