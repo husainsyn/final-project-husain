@@ -89,18 +89,25 @@ body{
     background-repeat: no-repeat;
 }
 
+.card-text{
+    font-style: italic;
+}
+.card-group{
+    margin-left: 25px;
+    margin-right: 25px;
+}
 .card-bungkus{
     position: relative;
     display: flex;
     flex-direction: row;
-    /* justify-items: center; */
+    justify-items: center;
     justify-content: space-between;
 }
 .card{
     color: aliceblue;
     background-color: #27809ec0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.356));
-    top: 15rem;
+    top: 10rem;
     padding: 0.3rem;
     border: 5rem rgb(26, 111, 180);
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -110,7 +117,7 @@ body{
     transition: 0.4s ease-in-out;    
 }
 .card:hover{
-    transform: scale(1.03, 1.03);
+    transform: scale(1.04, 1.04);
 }
 .tombol-about, .tombol-team, .tombol-kontak{
     border-radius: 20px;
