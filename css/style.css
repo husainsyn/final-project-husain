@@ -29,11 +29,11 @@ a:visited{
 }
 
 .navbar-light .navbar-nav .nav-link.active{
-    color: white;
+    color: #254243;
     font-family: 'Lobster', cursive;
 }
 .navbar-light .navbar-nav .nav-link.active:hover{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(160, 2, 2, 0.5);
 }
 .nav-item{
     transition: 0.15s ease-in-out;
@@ -63,7 +63,7 @@ a:visited{
 .icon-bar.top-bar,
 .icon-bar.middle-bar,
 .icon-bar.bottom-bar {
-    background-color: white;
+    background-color: #254243;
 }
 .navbar-toggler span:nth-child(2) {
     opacity: 1;
@@ -106,7 +106,7 @@ body{
 .card{
     color: aliceblue;
     background-color: #27809ec0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.356));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), #f1c36d57);
     top: 10rem;
     padding: 0.3rem;
     border: 5rem rgb(26, 111, 180);
@@ -129,7 +129,26 @@ body{
     padding: 10px 15px;
     transition: 0.3s ease-in-out;
 }
+.read-more{
+    border-radius: 10px;
+    box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    border-color: #f1c36d;
+    background-color: #cad7d9;
+    color: #151d1d;
+    padding: 5px 5px;
+    transition: 0.3s ease-in-out;
+}
 .tombol-about:hover{
+    transform: scale(1.07, 1.07);
+}
+.tombol-team:hover{
+    transform: scale(1.07, 1.07);
+}
+.tombol-kontak:hover{
+    transform: scale(1.07, 1.07);
+}
+.read-more:hover{
     transform: scale(1.07, 1.07);
 }
 
@@ -165,7 +184,7 @@ body{
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.25);
+    background: #ffffff40;
     animation: animate 25s linear infinite;
     bottom: -150px;  
 }
