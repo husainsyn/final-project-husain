@@ -20,7 +20,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <i><img src="img/coding.png" width="35px" alt="" style="margin-left: 5px;"></i>
-                <i style="font-style: normal;color:white;font-family:rockwell;text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">&nbsp;My
+                <i style="font-style: normal;color:white;font-family:lobster;text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">&nbsp;My
                     Profile</i>
             </a>
             <button class="navbar-toggler collapsed ms-auto" type="button" data-bs-toggle="collapse"
@@ -36,7 +36,7 @@
                         <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" href="#About">About</a>
+                        <a class="nav-link active" href="index.html" onclick="fungsi_1(event, this)">About</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <a class="nav-link active" href="portofolio.html">Portofolio</a>
@@ -45,10 +45,10 @@
                         <a class="nav-link active" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" href="#">Team</a>
+                        <a class="nav-link active" id="a-team" href="#">Team</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link active" id="a-contact" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -73,69 +73,103 @@
     </div>
 
     <div class="card-bungkus">
-        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;padding-top: 3rem;">
+        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;padding-top: 2rem;">
             <i class="fa fa-group" style="font-size: 10rem;"></i>
+            <!-- <img src="img/team.jpg" class="card-img-top" alt="foto team"> -->
             <div class="card-body">
-                <br>
-                <h5 class="card-title">Team Kami</h5>
-                <br>
-                <!-- <p class="card-text" style="font-style: italic;">Front-End Web Developer</p> -->
+                <!-- <h5 class="card-title">Team Kami</h5> -->
+                <p class="card-text" style="font-style: italic;">Team Kami</p>
                 <button class="tombol-team" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
                     aria-expanded="false" aria-controls="collapseExample1">Team</button>
                 <p></p>
                 <div class="collapse" id="collapseExample1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <table class="table table-sm table-hover">
+                        <tr>
+                            <td id="kolom1">Compiler</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_availability"><span><img src="img/html5-brands.svg" alt="null" width="20rem"></span>VScode</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Framework</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_usia"><span><img src="img/bootstrap-brands.svg" alt="null" width="20rem"></span>Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Version Control</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_lokasi"><span><img src="img/github-brands.svg" alt="null" width="20rem"></span>GitHub</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Deployment</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_exp"><span><img src="img/cloud-arrow-up-solid.svg" alt="null" width="20rem"></span>Netlify</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;">
-            <img src="img/fotoP.JPG" class="card-img-top" alt="foto-profil">
+        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;padding-top: 2rem;">
+            <!-- <img src="img/user2.svg" class="card-img-top" alt="foto-profil"> -->
+            <i class="fa fa-address-book-o" style="font-size: 10rem;"></i>
             <div class="card-body">
                 <h5 class="card-title">Husain Ali Ahmad</h5>
                 <p class="card-text" style="font-style: italic;">Front-End Web Developer</p>
                 <button class="tombol-about" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
-                    aria-expanded="false" aria-controls="collapseExample4">Team</button>
+                    aria-expanded="false" aria-controls="collapseExample4">Biodata</button>
                 <p></p>
                 <div class="collapse" id="collapseExample4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <table class="table table-sm table-hover">
+                        <tr>
+                            <td id="kolom1">Availability</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_availability">Full Time</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Usia</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_usia">? Tahun</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Alamat</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_lokasi">Yogyakarta</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Pengalaman</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_exp">1 Tahun</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;padding-top: 3rem;">
+        <div class="card text-center mx-auto" style="width: 22rem;height: fit-content;padding-top: 2rem;">
             <i class="	fa fa-vcard-o" style="font-size: 10rem;"></i>
+            <!-- <img src="img/kontak.jpg" class="card-img-top" alt="foto team"> -->
             <div class="card-body">
-                <br>
-                <h5 class="card-title">Hubungi Kami</h5>
-                <br>
+                <!-- <h5 class="card-title">Hubungi Kami</h5> -->
+                <p class="card-text" style="font-style: italic;">Hubungi Kami</p>
                 <button class="tombol-kontak" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
                     aria-expanded="false" aria-controls="collapseExample3">Contact</button>
                 <p></p>
                 <div class="collapse" id="collapseExample3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <table class="table table-sm table-hover">
+                        <tr>
+                            <td id="kolom1">Handphone</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_availability">085123456789</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">Email</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_usia">husain.syn@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td id="kolom1">GitHub</td>
+                            <td>:</td>
+                            <td class="kolom2" id="p_lokasi">github.com/husainsyn</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>

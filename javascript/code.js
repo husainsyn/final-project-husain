@@ -12,3 +12,7 @@ let tombol_kontak = document.querySelector('.tombol-kontak');
   tombol_kontak.addEventListener('click', () => {
   tombol_kontak.classList.toggle('flip');
 });
+
+function fungsi_1(){
+  document.getElementsByClassName("tombol-about").click(); 
+}

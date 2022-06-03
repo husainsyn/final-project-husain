@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -28,7 +30,7 @@ a:visited{
 
 .navbar-light .navbar-nav .nav-link.active{
     color: white;
-    font-family: 'Rockwell';
+    font-family: 'Lobster', cursive;
 }
 .navbar-light .navbar-nav .nav-link.active:hover{
     color: rgba(255, 255, 255, 0.5);
@@ -91,11 +93,12 @@ body{
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    /* justify-items: center; */
+    justify-content: space-between;
 }
 .card{
     color: aliceblue;
-    background-color: #27809e98;
+    background-color: #27809e77;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.356));
     top: 6.5rem;
     padding: 0.3rem;
@@ -118,6 +121,22 @@ body{
 }
 .tombol-about:hover{
     transform: scale(1.07, 1.07);
+}
+
+.table{
+    text-align: left;
+    color: azure;
+}
+#kolom1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    padding-right: 15px;
+}
+.kolom2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: small;
 }
 
 /* Animasi background */
@@ -223,4 +242,11 @@ body{
     .card-bungkus {
         flex-direction: column;
     }
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    /* urutan item */
+    .card:nth-of-type(1) { order: 2; }
+    .card:nth-of-type(2) { order: 1; }
+    .card:nth-of-type(3) { order: 3; }
 }
