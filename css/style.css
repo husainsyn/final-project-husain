@@ -19,15 +19,6 @@
     text-align: center;
 } */
 
-a:link{
-    text-decoration: none;
-    color: white;
-}
-a:visited{
-    text-decoration: none;
-    color: white;
-}
-
 .navbar-light .navbar-nav .nav-link.active{
     color: #254243;
     font-family: 'Lobster', cursive;
