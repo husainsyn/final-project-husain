@@ -14,5 +14,5 @@ let tombol_kontak = document.querySelector('.tombol-kontak');
 });
 
 function fungsi_1() {
-  alert("Don't Blame Yourself. \nNo heroes ever died in his bed.");
+  alert("👋 Hi, Im Husain \n👀 Im interested in web design and web programming \n🌱 Im currently learning front-end further more to be a backend engineer \n✨ My goal is to be a Full Stack Engineer");
 }
