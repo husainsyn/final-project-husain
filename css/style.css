@@ -271,3 +271,16 @@ body{
     .card:nth-of-type(2) { order: 1; }
     .card:nth-of-type(3) { order: 3; }
 }
+
+@media (max-width: 720px) {
+    .card-bungkus {
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 1.5rem;
+        top: 6rem;
+    }
+    .card:nth-of-type(1) { order: 2; }
+    .card:nth-of-type(2) { order: 1; }
+    .card:nth-of-type(3) { order: 3; }
+}
