@@ -272,7 +272,7 @@ body{
     .card:nth-of-type(3) { order: 3; }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
     .card-bungkus {
         flex-direction: column;
     }
